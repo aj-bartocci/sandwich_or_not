@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<style>
+.center {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.0);
+}
+.left-align {
+    margin-left: 200px;
+<!--    background-color: rgba(255,255,255,0.0);-->
+    background-image: url('http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-11/256/sandwich.png');
+    background-repeat: repeat;
+}
+#counter {
+    border: 2px solid #cc0000;
+    color: #ffffff;
+    background: #000000;
+    text-align: center;
+    padding: 4px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    font: normal 12px tahoma, verdana, Arial;
+}
+#counter span {
+    font-weight: bold;
+}
+#testId {
+    background-image: url('sandwich.png');
+    background-repeat: repeat;
+    background: #000000;
+}
+body {
+    background-image: linear-gradient( rgba(255,255,255,.75), rgba(255,255,255,.75) ), url("http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-11/256/sandwich.png");
+    background-repeat: repeat;
+    background-color: rgba(200,100,0,.5);
+<!--    background-blend-mode: multiply;-->
+}
+</style>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <title>Sandwich Or Not</title>
+                    <link href="css/bootstrap.min.css" rel="stylesheet">
+                        <!--[if lt IE 9]>
+                         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+                         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+                         <![endif]-->
+                        </head>
+    <body>
+        <div id="testId" style="position: absolute, width: 3000px, height: 6000px"></div>
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Sandwich Or Not</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">About</a></li>
+<!--                        <li><a href="#">Research</a></li>-->
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Useless Dropdown<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Told you</a></li>
+<!--                                <li><a href="#">Development</a></li>-->
+<!--                                <li><a href="#">Consulting</a></li>-->
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="left-align">
+            <h1>Welcome!</h1>
+            <p class="lead">If you've been looking for the definitive source on sandwiches you've come to the right place.<br> We too struggled in defining exactly what makes up a sandwich, after much research we now hope to help others.</p>
+            <img src="https://st2.depositphotos.com/1011382/8087/i/950/depositphotos_80870436-stock-photo-comical-man-eating-sandwich-with.jpg" style="width:500px;height:600px;" alt="Crazy guy eating a sandwich">
+            <img src="https://comps.canstockphoto.com/girl-eating-sandwich-stock-photo_csp3754854.jpg" alt="Girl eating sandwich">
+        </div>
+        <div class="left-align">
+            <h1>What exactly is a sandwich anyway?</h1>
+            <p class="lead">There are a lot of sandwich and sandwich wannabes out there, so how do you tell apart the real deal and the frauds?</p>
+            <img src="http://cl.jroo.me/z3/S/C/2/d/a.baa-Very-big-sandwich.jpg" alt="Man with sandwich the size of him">
+                <img src="https://thumbs.dreamstime.com/z/big-cheese-sandwich-1821365.jpg" style="width:500px;height:600px;" alt="Cheese sandwich with many slices of cheese">
+                    <img src="https://drive.google.com/uc?id=1QoVHnzFP6UPB3Cj0-4dE3iiURLRwWsnw" style="width:500px;height:600px;" alt="Cheese sandwich with many slices of cheese">
+        </div>
+        <div id="counter">
+            <span class="center">1337 views</span>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+    <script src="js/sandwich_cursor.js"></script>
+</html>
